@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000624;
+  cursor: pointer;
+  transition: all ease-out 0.3s;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+a:active {
+  opacity: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  border: 0.75rem solid #000624;
+  border-radius: 0 25px 0 15px;
+}
+
+body {
+  color: #000624;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 3rem;
+}
+
+.main--info {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  background-color: rgb(7, 46, 90);
+  margin-bottom: 2rem;
+  padding: 2rem;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+.more--info {
+  gap: 2rem;
+}
+
+.w--100 {
+  width: 100%;
+}
+
+.input {
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.sec--title {
+  margin: 1rem 0;
+  color: rgb(7, 46, 90);
+}
+
+.interest--list {
+  padding-left: 1rem;
+}
+
+.tint {
+  color: red;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.button {
+  background-color: #000624;
+  color: #fff;
+  transition: all ease-out 0.3s;
+  border: none;
+}
+
+.button:hover {
+  color: #000624;
+  background: #fff;
+  border: 1px solid #000624;
+}
